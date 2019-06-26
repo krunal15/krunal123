@@ -1,0 +1,16 @@
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+var table = $('#tbDetails').DataTable( {
+"aaData": data,
+"aoColumns": [
+{ "mData": "name"},
+{ "mData": "desgination"},
+{ "mData": "salary"},
+{ "mData": "country"}
+]
+});
+});
+</script>
